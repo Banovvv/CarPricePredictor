@@ -14,6 +14,6 @@ namespace Domain.Models
         public int Fuel { get; set; }
         public int Transmission { get; set; }
         public int EmissionStandard { get; set; }
-        public int Price { get; set; }
+        public float Price { get; set; }
     }
 }

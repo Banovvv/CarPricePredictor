@@ -8,7 +8,7 @@ public class Program
     public class Prediction
     {
         [ColumnName("Score")]
-        public int Price { get; set; }
+        public float Price { get; set; }
     }
 
     static void Main(string[] args)
