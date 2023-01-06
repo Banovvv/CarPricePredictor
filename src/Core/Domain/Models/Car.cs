@@ -9,6 +9,7 @@
         public int Mileage { get; set; }
         public string Fuel { get; set; }
         public string Transmition { get; set; }
+        public string EuropeanEmissionStandard { get; set; }
         public decimal Price { get; set; }
     }
 }
